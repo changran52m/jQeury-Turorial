@@ -1,5 +1,7 @@
 # JQuery Event Handlers
 
+* ready() : document.onload
+
 * blur() : Triggered when you leave an element
 * focus() : Triggered when you enter an element
 
@@ -20,7 +22,6 @@
 * submit() : Triggered when the submit button is pressed
 
 
-* load() : Triggered when your page loads
 
 
 
