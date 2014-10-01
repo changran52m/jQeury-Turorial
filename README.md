@@ -14,3 +14,12 @@ jQeury-Turorial
 11. 实践课：用jQqeury和Local storage写一个Todo list网页应用 (2)
 12. 实践课：用jQqeury和Local storage写一个Todo list网页应用 (3)
 
+# 运行
+1. `git clone https://github.com/changran52m/jQeury-Turorial.git`
+2. `cd jQeury-Turorial`
+3. `npm i`
+4. `grunt`
+5. `node ap.js`
+6. 访问localhost:3000/lessons/xxx
+
+
