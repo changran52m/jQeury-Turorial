@@ -50,10 +50,16 @@ app
   .use(bodyParser())
   .use(methodOverride())
   .use(express.static(path.join(__dirname, 'public')))
-  .use(routes.indexRouter)
-  .use(function (req, res) {
-    res.status(404).render('404', {title: 'Not Found :('});
+  .use(routes.indexRouter);
+app.get('/test', function (req, res) {
+  res.send("this is test get");
+});
+app.post('/test', function (req, res) {
+  res.send({
+    a:'b',
+    b:'c'
   });
+});
 
 if (app.get('env') === 'development') {
   app.use(errorHandler());
